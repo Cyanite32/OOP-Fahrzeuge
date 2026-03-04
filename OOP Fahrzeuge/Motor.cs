@@ -15,7 +15,12 @@
         public int Zylinder;
         public Motor(string Hersteller, string Modell, Art art, int Hubraum, int Leistung, int Zylinder)
         {
-
+            this.Hersteller = Hersteller;
+            this.Modell = Modell;
+            this.art = art;
+            this.Hubraum = Hubraum;
+            this.Leistung = Leistung;
+            this.Zylinder = Zylinder;
         }
     }
 }
