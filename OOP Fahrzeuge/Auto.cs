@@ -18,7 +18,7 @@
         public class Motor;
         public class Bereifung;
 
-        public Auto(string Marke, string Modell, string Baujahr, Sitzbezüge sitzbezüge, Motor motor, Bestreifung bestreifung)
+        public Auto(string Marke, string Modell, string Baujahr, Sitzbezüge sitzbezüge, Motor motor, Bereifung bestreifung)
         {
             this.Marke = Marke;
             this.Modell = Modell;
