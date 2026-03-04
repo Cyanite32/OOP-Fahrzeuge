@@ -16,7 +16,7 @@
         public int Kilometerstand;
         public int PS;
         public class Motor;
-        public class Bestreifung;
+        public class Bereifung;
 
         public Auto(string Marke, string Modell, string Baujahr, Sitzbezüge sitzbezüge, Motor motor, Bestreifung bestreifung)
         {

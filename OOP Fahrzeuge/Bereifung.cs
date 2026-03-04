@@ -1,7 +1,7 @@
 ﻿
 namespace OOP_Fahrzeuge
 {
-    public class Bestreifung
+    public class Bereifung
     {
         public string Marke;
         public string Modell;
@@ -15,7 +15,7 @@ namespace OOP_Fahrzeuge
         public bool Spikes;
         public string Dimension;
 
-        public Bestreifung(string Marke, string Modell, Bauart bauart, int Geschwindigkeitsindex, bool Spikes, string Dimension)
+        public Bereifung(string Marke, string Modell, Bauart bauart, int Geschwindigkeitsindex, bool Spikes, string Dimension)
         {
             this.Marke = Marke;
             this.Modell = Modell;
