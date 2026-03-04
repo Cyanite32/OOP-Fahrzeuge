@@ -13,9 +13,9 @@ namespace OOP_Fahrzeuge
         public Bauart bauart;
         public int Geschwindigkeitsindex;
         public bool Spikes;
-        public string Dimension;
+        public int Dimension;
 
-        public Bereifung(string Marke, string Modell, Bauart bauart, int Geschwindigkeitsindex, bool Spikes, string Dimension)
+        public Bereifung(string Marke, string Modell, Bauart bauart, int Geschwindigkeitsindex, bool Spikes, int Dimension)
         {
             this.Marke = Marke;
             this.Modell = Modell;

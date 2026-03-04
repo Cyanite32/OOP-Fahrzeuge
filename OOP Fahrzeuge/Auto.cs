@@ -12,19 +12,18 @@
             Polyester
         }
         public Sitzbezüge sitzbezüge;
-        public Motor motor;
+        
+        public static Motor motor = new Motor("VW", "Tiguan", Motor.Art.Diesel, 1968, 200, 4);
+        public static Bereifung bereifung = new Bereifung("Michelin", "PKW", Bereifung.Bauart.Sommer, 240, false, 15);
         public int Kilometerstand;
-        public int PS;
-        public class Motor;
-        public class Bereifung;
-
-        public Auto(string Marke, string Modell, string Baujahr, Sitzbezüge sitzbezüge, Motor motor, Bereifung bestreifung)
+        
+        public Auto(string Marke, string Modell, string Baujahr, Sitzbezüge sitzbezüge, Motor motor, Bereifung bereifung, int Kilometerstand)
         {
             this.Marke = Marke;
             this.Modell = Modell;
             this.Baujahr = Baujahr;
-            this.sitzbezüge = sitzbezüge;
-            this.motor = motor;
+            this.sitzbezüge = sitzbezüge; 
+            this.Kilometerstand = Kilometerstand;
         }
     }
 }

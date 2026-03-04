@@ -13,20 +13,17 @@ namespace OOP_Fahrzeuge
             Polyester
         }
         public Sitzbezüge sitzbezüge;
+        public static Motor motor = new Motor("LC8c", "LC8c Parallel-Twin", Motor.Art.Benzin, 125, 15, 1);
+        public static Bereifung bereifung = new Bereifung("Continental", "Anlas SC-500 Wintergrip 2", Bereifung.Bauart.Winter, 130, false, 18);
         public int Kilometerstand;
-        public class Motor;
-        public Motor motor;
-        public class Bestreifung;
-        public Bestreifung bestreifung;
 
-        public Motorrad(string Marke, string Modell, string Baujahr, Sitzbezüge sitzbezüge, int Kilometerstand, Motor motor, Bestreifung bestreifung)
+        public Motorrad(string Marke, string Modell, string Baujahr, Sitzbezüge sitzbezüge, int Kilometerstand, Motor motor, Bereifung bereifung, int Kilometerstand)
         {
             this.Marke = Marke;
             this.Modell = Modell;
             this.Baujahr = Baujahr;
             this.sitzbezüge = sitzbezüge;
-            this.motor = motor;
-            this.bestreifung = bestreifung;
+            this.Kilometerstand = Kilometerstand;
         }
     }
 }
