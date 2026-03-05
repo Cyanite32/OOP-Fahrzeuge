@@ -17,7 +17,7 @@ namespace OOP_Fahrzeuge
 
         public void Reifen()
         {
-            Console.WriteLine("Reifen: ");
+            Console.WriteLine("___Reifen: ");
             Console.WriteLine("|-> {0}", Marke);
             Console.WriteLine("|-> {0}", Modell);
             Console.WriteLine("|-> {0}", bauart);
