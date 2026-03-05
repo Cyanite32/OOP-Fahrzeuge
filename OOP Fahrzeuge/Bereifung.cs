@@ -17,6 +17,13 @@ namespace OOP_Fahrzeuge
 
         public void Reifen()
         {
+            /*Marke = Console.ReadLine();
+            Modell = Console.ReadLine();
+            Bauart.TryParse(Console.ReadLine(), out bauart);
+            Geschwindigkeitsindex = Convert.ToInt32(Console.ReadLine());
+            Spikes = Convert.ToBoolean(Console.ReadLine());
+            Dimension = Convert.ToInt32(Console.ReadLine());
+            */
             Console.WriteLine("___Reifen: ");
             Console.WriteLine("|-> {0}", Marke);
             Console.WriteLine("|-> {0}", Modell);

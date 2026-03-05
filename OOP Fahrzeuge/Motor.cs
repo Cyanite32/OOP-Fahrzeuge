@@ -15,6 +15,13 @@
         public int Zylinder;
         public void Rotom()
         {
+           /* Hersteller = Console.ReadLine();
+            Modell = Console.ReadLine();
+            Art.TryParse(Console.ReadLine(), out art);
+            Hubraum = Convert.ToInt32(Console.ReadLine());
+            Leistung = Convert.ToInt32(Console.ReadLine());
+            Zylinder = Convert.ToInt32(Console.ReadLine());
+            */
             Console.WriteLine("___Motor:");
             Console.WriteLine("|-> {0}", Hersteller);
             Console.WriteLine("|-> {0}", Modell);
