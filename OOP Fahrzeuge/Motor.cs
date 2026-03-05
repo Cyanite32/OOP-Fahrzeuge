@@ -13,6 +13,16 @@
         public int Hubraum;
         public int Leistung;
         public int Zylinder;
+        public void Rotom()
+        {
+            Console.WriteLine("___Motor:");
+            Console.WriteLine("|-> {0}", Hersteller);
+            Console.WriteLine("|-> {0}", Modell);
+            Console.WriteLine("|-> {0}", art);
+            Console.WriteLine("|-> {0}", Hubraum);
+            Console.WriteLine("|-> {0}", Leistung);
+            Console.WriteLine("|-> {0}", Zylinder);
+        }
         public Motor(string Hersteller, string Modell, Art art, int Hubraum, int Leistung, int Zylinder)
         {
             this.Hersteller = Hersteller;
