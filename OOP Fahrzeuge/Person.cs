@@ -21,6 +21,7 @@
             }
             auto.Eisenkutsche();
             motorrad.Eisenross();
+            Console.Write("\n\n");
         }
 
         public Person(string Vorname, string Nachname, string Geburtsdatum, string Adresse, Auto auto, Motorrad motorrad)
